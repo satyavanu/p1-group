@@ -115,7 +115,7 @@ Font does not matter.
 
 ### Home
 
-This is where a user can add new tickets. This screen is really basic. It just containers a navbar, a form with a few input fields and an add button.
+This is where an user can add new tickets. This screen is really basic. It just contains a navbar, a form with a few input fields and an add button.
 ![Home](https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ticket-form.png?alt=media&token=3657cf34-7bf9-4d58-a74e-a85796ddaf57)
 
 ### List

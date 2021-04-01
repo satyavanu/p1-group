@@ -1,6 +1,6 @@
 # Events Travel Frontend assignment
 
-This repo is the frontend assignment for applicants. This repo consists of two parts: Frontend & API. The assigment is to build this mini-application with the specified requirements (see Frontend --> requirements) and following the given design (see frontend --> Home & frontend --> List). Besides the requirements, you are completely free on how you would realize this application.
+This repo is the frontend assignment for applicants. This repo consists of two parts: Frontend & API. The assigment is to build this mini-application with the specified requirements (see Frontend --> requirements) and following the given design (see frontend --> Home & frontend --> List). Besides the requirements, you are completely free on how you would realize this application. You can also utilize a component library, but be aware: you should follow the design.
 
 ## API
 
@@ -51,17 +51,19 @@ interface GetTicketsResponse {
 - Method:
   `POST`
 - Request parameters
-  - validations
-    - `ticket` cannot be `null | undefined`
-    - `ticket.email` must be a valid email
-    - `ticket.price` must be a number
-    - `ticket.amount` must be a number
 
 ```
 interface PostTicketsRequest {
   ticket: Ticket;
 }
 ```
+
+- validations
+
+  - `ticket` cannot be `null | undefined`
+  - `ticket.email` must be a valid email
+  - `ticket.price` must be a number
+  - `ticket.amount` must be a number
 
 - Success Response
 

@@ -19,6 +19,7 @@ This repo is the frontend assignment for applicants. This repo consists of two p
 ```
 interface Ticket {
   id: number;
+  email: string;
   title: string;
   description: string;
   price: number;
@@ -52,6 +53,7 @@ interface GetTicketsResponse {
 - Request parameters
   - validations
     - `ticket` cannot be `null | undefined`
+    - `ticket.email` must be a valid email
     - `ticket.price` must be a number
     - `ticket.amount` must be a number
 

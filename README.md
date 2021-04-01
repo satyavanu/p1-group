@@ -60,10 +60,10 @@ interface PostTicketsRequest {
 
 - validations
 
-  - `ticket` cannot be `null | undefined`
-  - `ticket.email` must be a valid email
-  - `ticket.price` must be a number
-  - `ticket.amount` must be a number
+`ticket` cannot be `null | undefined`
+`ticket.email` must be a valid email
+`ticket.price` must be a number
+`ticket.amount` must be a number
 
 - Success Response
 

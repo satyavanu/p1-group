@@ -1,6 +1,6 @@
 # Events Travel Frontend assignment
 
-This repo is the frontend assignment for applicants. This repo consists of two parts: Frontend & API.
+This repo is the frontend assignment for applicants. This repo consists of two parts: Frontend & API. The assigment is to build this mini-application with the specified requirements (see Frontend --> requirements) and following the given design (see frontend --> Home & frontend --> List). Besides the requirements, you are completely free on how you would realize this application.
 
 ## API
 

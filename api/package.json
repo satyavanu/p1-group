@@ -1,8 +1,8 @@
 {
-  "name": "express-ts",
+  "name": "events-travel-fe-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
     "test": "jest --forceExit --verbose",
     "start": "ts-node app.ts",

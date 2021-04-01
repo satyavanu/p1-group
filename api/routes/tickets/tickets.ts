@@ -22,17 +22,14 @@ interface PostTicketsRequest {
   ticket: Ticket;
 }
 
-interface PostTicketsResponse {
+interface GeneralResponse {
   message: string;
   valid?: boolean;
 }
 
 router.post(
   "/",
-  async (
-    req: Request<PostTicketsRequest>,
-    res: Response<PostTicketsResponse>
-  ) => {
+  async (req: Request<PostTicketsRequest>, res: Response<GeneralResponse>) => {
     try {
       const { ticket } = req.body;
 
@@ -84,7 +81,7 @@ router.post(
       });
     } catch (e) {
       res.status(500).send({
-        message: "Something went wrong",
+        message: "Unknown.error",
       });
     }
   }

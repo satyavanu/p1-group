@@ -12,7 +12,7 @@ const inMemoryTickets: Ticket[] = [
     price: 10,
     amount: 4,
     supplier: "test supplier",
-    email: "test2@gmail.com",
+    email: "test2@example.com",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const inMemoryTickets: Ticket[] = [
     price: 10,
     amount: 4,
     supplier: "test supplier 2",
-    email: "test2@gmail.com",
+    email: "test2@example.com",
   },
 ];
 

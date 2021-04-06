@@ -1,6 +1,6 @@
 # Events Travel Frontend assignment
 
-This repo contains the frontend assignment for applicants. We would like to use this assignment to get some insight into your process of thought. You don't have worry, you can not fail this assignment as it's not a test. We like to use this assignment as a starting point for the interview conversation 🙂
+This repo contains the frontend assignment for applicants. We would like to use this assignment to get some insight into your process of thought. You don't have to worry, you can not fail this assignment as it's not a test. We like to use this assignment as a starting point for the interview conversation 🙂
 
 The repository contains two projects: **Frontend** & **API**, you will be working only in the Frontend, but will utilize the API for fetching data.
 

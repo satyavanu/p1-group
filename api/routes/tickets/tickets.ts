@@ -4,7 +4,26 @@ import { validateEmail } from "../../helpers/validate";
 
 const router = express.Router();
 
-const inMemoryTickets: Ticket[] = [];
+const inMemoryTickets: Ticket[] = [
+  {
+    id: 1,
+    title: "!",
+    description: "test description",
+    price: 10,
+    amount: 4,
+    supplier: "test supplier",
+    email: "test2@gmail.com",
+  },
+  {
+    id: 2,
+    title: "!",
+    description: "test description 2",
+    price: 10,
+    amount: 4,
+    supplier: "test supplier 2",
+    email: "test2@gmail.com",
+  },
+];
 
 // Get all tickets
 interface GetTicketsResponse {

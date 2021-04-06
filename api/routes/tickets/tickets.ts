@@ -7,7 +7,7 @@ const router = express.Router();
 const inMemoryTickets: Ticket[] = [
   {
     id: 1,
-    title: "!",
+    title: "title",
     description: "test description",
     price: 10,
     amount: 4,
@@ -16,7 +16,7 @@ const inMemoryTickets: Ticket[] = [
   },
   {
     id: 2,
-    title: "!",
+    title: "title 2",
     description: "test description 2",
     price: 10,
     amount: 4,

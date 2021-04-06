@@ -2,7 +2,7 @@
 
 This repo contains the frontend assignment for applicants. We would like to use this assignment to get some insight into your process of thought. You don't have worry, you can not fail this assignment as it's not a test. We like to use this assignment as a starting point for the interview conversation 🙂
 
-It consists of two parts: **Frontend** & **API**, you will be working only in the Frontend, but will utilize the API for fetching data. 
+The repository contains two projects: **Frontend** & **API**, you will be working only in the Frontend, but will utilize the API for fetching data.
 
 ## Assignment
 
@@ -16,7 +16,7 @@ The assigment is to build a mini-application that can add and show tickets using
 - Use functional components
 - Use React Hooks
 - Use Redux to manage state
-- Functionality that can be interpreted from the designs should be implemented 
+- Functionality that can be interpreted from the designs should be implemented (for example the menu, form validation, ...)
 - Use margins and paddings consistently
 
 **Note:** If you are stuck on a specific requirement and can't continue, consider just skipping it so you can continue with the rest.
@@ -33,24 +33,21 @@ This is where a list of all the tickets are shown
 
 #### Colors, fonts and logo's
 
-You will find the Events travel logo in the `frontend/public` directory named `ET-logo.png` or use the url `https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ET-logo.png?alt=media&token=392c6669-9410-4af4-b676-632909ec9bfd`.
-
-The following colors are used:
-
-- Blue: `#2e93bf`
-- lightgrey: `#707070`
-- white: `#ffffff`
-- red: just use the standard red
-
-Font does not matter.
-
+- The Events Travel logo can be found at `frontend/public/ET-logo.png`
+- Colors
+  - Blue: `#2e93bf`
+  - Light grey: `#707070`
+  - White: `#ffffff`
+  - Red: `red`
+- Use whatever font you like best ;)
 
 ## API Documentation
 
 ### Usage
 
-- Install dependencies with `yarn` or `npm i`
-- Run the server with `yarn (or npm) run start` or `yarn (or npm) run dev`
+- Install dependencies with `yarn install`
+- Run the server with `yarn start` or `yarn dev`
+- The api will be accessible at [http://locahost:5000](http://localhost:5000 ) 
 - We have a Postman collection available in the `api` directory
 
 ### Specifications

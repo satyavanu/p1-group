@@ -1,8 +1,51 @@
 # Events Travel Frontend assignment
 
-This repo is the frontend assignment for applicants. This repo consists of two parts: Frontend & API. The assigment is to build this mini-application with the specified requirements (see Frontend --> requirements) and following the given design (see frontend --> Home & frontend --> List). Besides the requirements, you are completely free on how you would realize this application. You can also utilize a component library, but be aware: you should follow the design.
+This repo contains the frontend assignment for applicants. We would like to use this assignment to get some insight into your process of thought. You don't have worry, you can not fail this assignment as it's not a test. We like to use this assignment as a starting point for the interview conversation 🙂
 
-## API
+It consists of two parts: **Frontend** & **API**, you will be working only in the Frontend, but will utilize the API for fetching data. 
+
+## Assignment
+
+The assigment is to build a mini-application that can add and show tickets using the API. You are completely free on how you would realize and structure the application, as long as the requirements are met. It's also fine to use a UI library as long as you don't change the provided designs.
+
+### Requirements
+
+- The project should use TypeScript
+- The provided API should be used to fetch and post data
+- The home and list page should be accessible by URL (so Routing should be used)
+- Use functional components
+- Use React Hooks
+- Use Redux to manage state
+- Functionality that can be interpreted from the designs should be implemented 
+- Use margins and paddings consistently
+
+**Note:** If you are stuck on a specific requirement and can't continue, consider just skipping it so you can continue with the rest.
+
+**Home**
+
+This is where an user can add new tickets. This screen is really basic. It just contains a navbar, a form with a few input fields and an add button.
+![Home](https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ticket-form.png?alt=media&token=3657cf34-7bf9-4d58-a74e-a85796ddaf57)
+
+**List**
+
+This is where a list of all the tickets are shown
+![Home](https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ticket-list.png?alt=media&token=976758f0-c167-4d95-8215-2e64498a28bc)
+
+#### Colors, fonts and logo's
+
+You will find the Events travel logo in the `frontend/public` directory named `ET-logo.png` or use the url `https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ET-logo.png?alt=media&token=392c6669-9410-4af4-b676-632909ec9bfd`.
+
+The following colors are used:
+
+- Blue: `#2e93bf`
+- lightgrey: `#707070`
+- white: `#ffffff`
+- red: just use the standard red
+
+Font does not matter.
+
+
+## API Documentation
 
 ### Usage
 
@@ -85,40 +128,3 @@ interface ValidationErrorResponse {
 }
 ```
 
-## Frontend
-
-The frontend consists of two screens: Home & List. This repo also contains a boilerprate (Create React App) project with the necessary things setup. Typscript is also included. Feel free to arrange the project structure to your own needs.
-
-Also, try to follow the design as much as possible and use margins and paddings consistently.
-
-### Colors, fonts and logo's
-
-You will find the Events travel logo in the `frontend/public` directory named `ET-logo.png` or use the url `https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ET-logo.png?alt=media&token=392c6669-9410-4af4-b676-632909ec9bfd`.
-
-The following colors are used:
-
-- Blue: `#2e93bf`
-- lightgrey: `#707070`
-- white: `#ffffff`
-- red: just use the standard red
-
-Font does not matter.
-
-### Requirements:
-
-- Must use typescript
-- Must use the API to fetch and post data
-- Must have a form of routing
-- Must use functional components
-- Must use React Hooks
-- Must use Redux to manage state
-
-### Home
-
-This is where an user can add new tickets. This screen is really basic. It just contains a navbar, a form with a few input fields and an add button.
-![Home](https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ticket-form.png?alt=media&token=3657cf34-7bf9-4d58-a74e-a85796ddaf57)
-
-### List
-
-This is where a list of all the tickets are shown
-![Home](https://firebasestorage.googleapis.com/v0/b/fe-assignment-d05f6.appspot.com/o/ticket-list.png?alt=media&token=976758f0-c167-4d95-8215-2e64498a28bc)

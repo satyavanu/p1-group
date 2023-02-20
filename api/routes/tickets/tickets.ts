@@ -51,7 +51,6 @@ router.post(
   async (req: Request<PostTicketsRequest>, res: Response<GeneralResponse>) => {
     try {
       const { ticket } = req.body;
-
       if (!ticket) {
         res.status(400).send({
           message: "ticket.cannot.be.null",
